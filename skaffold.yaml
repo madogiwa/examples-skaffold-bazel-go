@@ -1,0 +1,7 @@
+apiVersion: skaffold/v1beta7
+kind: Config
+build:
+  artifacts:
+  - image: skaffold-bazel-go
+    bazel:
+      target: //:skaffold-bazel-go.tar

@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: skaffold-bazel-go
+spec:
+  containers:
+  - name: skaffold-bazel-go
+    image: skaffold-bazel-go
